@@ -1,0 +1,11 @@
+<resources>
+    <color name="purple_500">#6200EE</color> <!-- основной цвет -->
+    <color name="purple_700">#3700B3</color> <!-- темный вариант -->
+    <color name="teal_200">#03DAC5</color> <!-- второй цвет -->
+    <color name="teal_700">#018786</color> <!-- темный вариант второго цвета -->
+    <color name="white">#FFFFFF</color> <!-- цвет белый -->
+    <color name="black">#000000</color> <!-- цвет черный -->
+    <color name="lam">#A0694A</color>
+    <color name="brown">#A0694A</color>
+    <color name="dark_brown">#8B4513</color>
+</resources>

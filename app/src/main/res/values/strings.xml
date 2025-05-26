@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">LAM</string>
+    <string name="animation_desc">Анимация, показывающая изображения интересных мест</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Поиск</string>
+    <string name="title_dashboard">Избранное</string>
+    <string name="title_places">Места</string>
+
+    <string name="place_image_desc">Изображение места</string>
+
+    <string-array name="mesta1">
+        <item>Парк Гагарина</item>
+        <item>Набережная</item>
+        <item>Парк Победы</item>
+        <item>Ботанический сад Самарского университета</item>
+        <item>Струковский сад</item>
+        <item>Бар Родная</item>
+
+
+
+    </string-array>
+
+    <string-array name="mesta3">
+        <item>Московское шоссе, 34Б</item>
+        <item>Молодогвардейская улица, 151</item>
+
+    </string-array>
+
+
+    <string-array name="mesta2">
+        <item>Загородный парк</item>
+        <item>Мастер-Класс ПростоАрт</item>
+        <item>Мастер-Класс Колокол</item>
+        <item>Музей Авиации и космонавтики</item>
+        <item>Музей шоколада</item>
+        <item>Бункер Сталина</item>
+        <item>КвестГуру</item>
+        <item>Бар Свойский</item>
+        <item>Бар-ресторан Smoky People</item>
+        <item>Бар Дядя Блёва</item>
+        <item>Бар На Посошок</item>
+        <item>Квест Black Duck</item>
+        <item>Кулинарные шоу CooknRun Events</item>
+        <item>Театр кукол</item>
+
+
+
+
+
+
+
+
+    </string-array>
+    <string name="title_activity_page">PageActivity</string>
+    <!-- Добавьте другие строки по мере необходимости -->
+</resources>

@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.places.PlacesFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/txt"
+                android:layout_width="252dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="Заголовок интересные места"
+                android:text="Интересные места"
+                android:textColor="#A0694A"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Куда пойти с друзьями, где отдохнуть, что показать туристам."
+                android:textColor="#A0694A"
+                android:textSize="15sp"
+                android:contentDescription="Описание раздела"/>
+
+
+            <!-- 1 блок места -->
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:contentDescription="Заголовок мастер-классы"
+                android:gravity="center"
+                android:text="Мастер-классы"
+                android:textColor="#A0694A"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/place_mk_prostoart"
+                    android:contentDescription="Мастер-класс ПростоАрт"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Мастер-класс ПростоАрт"
+                    android:textColor="#A0694A"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Мастерская лепки и рукоделия"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="просп. Масленникова, 14А, Самара"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+
+            <!-- 2 блок места -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/place_mk_kolokol"
+                    android:contentDescription="Мастер-класс Колокол"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Мастер-класс Колокол"
+                    android:textColor="#A0694A"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Гончарная школа"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="просп. Масленникова, 15, Самара"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+
+            </LinearLayout>
+
+
+            <!-- 3 блок места -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/place_mk_zhivoy"
+                    android:contentDescription="Мастер-класс Центр Сотворчества Живой"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Мастер-класс Центр Сотворчества Живой"
+                    android:textColor="#A0694A"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Центр создан для объединения людей считающих, что нужно развивать практические творческие навыки, необходимые для реальной жизни. К таким навыкам относятся как технические (например обработка древесины, или скалолазанье) так и надпрофессиональные, например навыки принятия решений и ответственности за принятые решения."
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="ул. Ерошевского, 5, Самара"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:contentDescription="Заголовок мастер-классы"
+                android:gravity="center"
+                android:text="Музеи и галереи"
+                android:textColor="#A0694A"
+                android:textSize="20sp" />
+
+            <!-- 4 блок места -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/place_museum_chocolate"
+                    android:contentDescription="Музей шоколада"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Музей шоколада"
+                    android:textColor="#A0694A"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Садовая, 256 - 1 этаж."
+
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+            <!-- 5 блок места -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/place_museum_aviation"
+                    android:contentDescription="Музей авиации"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Музей Авиации и космонавтики"
+                    android:textColor="#A0694A"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Экспозиция исторических самолетов и авиационной техники в Самарском университете С.П.Королева"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Московское ш., 34А, Самара"
+
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/place_museum_golovkina"
+                    android:contentDescription="Музей Дача К.П. Головкина"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Музей Дача К.П. Головкина"
+                    android:textColor="#A0694A"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Улица Советской Армии, 296
+
+Октябрьский район, Самара, 443011,
+4 этажа"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/place_museum_alabin"
+                    android:contentDescription="Музей им. П.В. Алабина"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Музей им. П.В. Алабина"
+                    android:textColor="#A0694A"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text=" Самарский областной историко-краеведческий музей имени Петра Владимировича Алабина является одним из старейших музеев Поволжья. Он был основан по инициативе П.В. Алабина в 1886 г. Музей и его филиалы располагаются в нескольких зданиях в историческом центре города: в бывшем Самарском филиале Центрального музея В.И. Ленина, особняке Александры Курлиной (Музей Модерна), мемориальных музеях В.И. Ленина и М.В. Фрунзе."
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="ул. Ленинская, 142"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+            <!-- 5 блок места -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/place_museum_modern"
+                    android:contentDescription="Музей модерна"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Музей модерна"
+                    android:textColor="#A0694A"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Музей Модерна – это целостная архитектурно-историческая среда, культурная модель эпохи модерна конца XIX – начала XX веков, времени наивысшего расцвета купеческой Самары."
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Фрунзе, 159
+                                                  Красноармейская улица, 15"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Ленинский район, Самара, 443010"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+
+
+            <!-- 5 блок места -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/place_museum_tretyakovskaya"
+                    android:contentDescription="Третьяковская галерея"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Третьяковская галерея"
+                    android:textColor="#A0694A"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Филиал Государственной Третьяковской галереи в г. Самара."
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Улица Ново-Садовая, 149"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Октябрьский район, Самара, 443068"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+
+            </LinearLayout>
+
+
+            <!-- 5 блок места -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/place_museum_bunker"
+                    android:contentDescription="Бункер Сталина"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Бункер Сталина"
+                    android:textColor="#A0694A"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Исторический центр ГО и ЧС"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Фрунзе, 167"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Ленинский район, Самара, 443010"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+
+            </LinearLayout>
+
+            <!-- 5 блок места -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/place_museum_lenin"
+                    android:contentDescription="Дом-музей В.И. Ленина"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Дом-музей В.И. Ленина"
+                    android:textColor="#A0694A"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="ГБУК Самарский областной историко-краеведческий музей им. П.В. Алабина"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Улица Ленинская, 135"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Ленинский район, Самара, 443041"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:contentDescription="Заголовок мастер-классы"
+                android:gravity="center"
+                android:text="Парки и зоны отдыха "
+                android:textColor="#A0694A"
+                android:textSize="20sp" />
+
+
+            <!-- 5 блок места -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/place_park_gagarina"
+                    android:contentDescription="Парк Гагарина"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Парк Гагарина"
+                    android:textColor="#A0694A"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Промышленный район, Самара, 443090"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+
+            </LinearLayout>
+
+
+
+            <!-- 5 блок места -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/place_park_pobeda"
+                    android:contentDescription="Парк Победы"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Парк Победы"
+                    android:textColor="#A0694A"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Советский район, Самара, 443074"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+
+            </LinearLayout>
+
+
+
+            <!-- 5 блок места -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/place_park_botsad"
+                    android:contentDescription="Ботанический сад Самарского университета"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Ботанический сад Самарского университета"
+                    android:textColor="#A0694A"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Памятник природы регионального значения, расположенный в Октябрьском районе города Самары. Один из крупнейших в России и старейших ботанических учреждений на Средней Волге. Единственный сад во всем Среднем Поволжье, имеющий оранжерею."
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Московское шоссе, 36"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Октябрьский район, Самара, 443086"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+
+            </LinearLayout>
+
+
+            <!-- 5 блок места -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/place_park_zagorodny"
+                    android:contentDescription="Загородный парк"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Загородный парк"
+                    android:textColor="#A0694A"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="улица Ново-Садовая, 150"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Октябрьский район, Самара, 443011"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+
+            </LinearLayout>
+
+            <!-- 5 блок места -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/place_park_strucovski"
+                    android:contentDescription="Струковский сад"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Струковский сад"
+                    android:textColor="#A0694A"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Ленинский район, Самара, 443010"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+
+            </LinearLayout>
+
+
+            <!-- 5 блок места
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/place_park_naba"
+                    android:contentDescription="Набережная"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Набережная"
+                    android:textColor="#A0694A"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Самарская набережная — это парк культуры и отдыха, расположенный на берегу реки Волги. Он предлагает своим посетителям множество возможностей для отдыха и развлечений, включая песчаный пляж, спортивные и детские площадки, кафе и рестораны, а также велосипедные и пешеходные дорожки."
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Самара, улица Максима Горького"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+            </LinearLayout> -->
+
+
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:contentDescription="Заголовок мастер-классы"
+                android:gravity="center"
+                android:text="Квесты и активный отдых"
+                android:textColor="#A0694A"
+                android:textSize="20sp" />
+
+
+            <!-- 5 блок места -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/place_kvest_guru"
+                    android:contentDescription="КвестГуру"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="КвестГуру"
+                    android:textColor="#A0694A"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Организация и проведение праздников"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Улица Ленинская, 61"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Самарский район, Самара, 443020"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+
+            <!-- 5 блок места -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/place_kvest_izolyatziya"
+                    android:contentDescription="Квест Изоляция"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Квест Изоляция"
+                    android:textColor="#A0694A"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="11 квестов разных жанров и уровней сложности на любой вкус. От завораживающих антуражных, детских, логических с актерским перфомансом, до ужасающих хоррор квестов!"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Молодогвардейская улица, 57"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Ленинский район, Самара, 443010"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/txt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:contentDescription="Заголовок мастер-классы"
+                android:gravity="center"
+                android:text="Бары и рестораны"
+                android:textColor="#A0694A"
+                android:textSize="20sp" />
+
+            <!-- 5 блок места -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/place_kvast_blyova"
+                    android:contentDescription="Бар Дядя Блёва"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Бар Дядя Блёва"
+                    android:textColor="#A0694A"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Бар «Дядя Блёва» — это место, где можно провести время в уютной атмосфере, поиграть в настольные игры или приставки, а также попробовать оригинальные настойки и пиво."
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Ярмарочная ул., 29, Самара"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+
+
+            </LinearLayout>
+
+            <!-- 5 блок места -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/place_bar_smoky"
+                    android:contentDescription="Бар-ресторан Smoky People"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Бар-ресторан Smoky People"
+                    android:textColor="#A0694A"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Звёздный рестобар с потрясающей кухней, коктейлями и летней верандой"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Улица Ново-Садовая, 3"
+                    android:textColor="#A0694A"
+                    android:textSize="14sp"/>
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
